@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go related
+*.log
+*.test
+*.out
+*.mod
+*.sum
+
+# Ignore .vscode settings
+.vscode/
+
+# Ignore files for macOS/Linux
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# Ignore coverage files
+*.coverprofile
+*.cov
+
+# Node-related files (if using any npm packages)
+node_modules/
+npm-debug.log*
+
+# Dependency directories
+vendor/
+
